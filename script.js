@@ -1,7 +1,6 @@
-// Configuración del gráfico tipo de trading
 const ctx = document.getElementById('aiChart').getContext('2d');
 const aiChart = new Chart(ctx, {
-    type: 'candlestick', // Gráfico de tipo vela para similitud con trading
+    type: 'candlestick',
     data: {
         datasets: [{
             label: 'AI Performance Comparison',
@@ -23,22 +22,21 @@ const aiChart = new Chart(ctx, {
             legend: {
                 display: true,
                 labels: {
-                    color: '#ffffff' // Color de las etiquetas
+                    color: '#ffffff'
                 }
             }
         },
         scales: {
             x: {
-                ticks: { color: '#ffffff' }, // Color de las etiquetas en X
-                grid: { color: '#333333' } // Color de las líneas del grid
+                ticks: { color: '#ffffff' },
+                grid: { color: '#333333' }
             },
             y: {
-                ticks: { color: '#ffffff' }, // Color de las etiquetas en Y
-                grid: { color: '#333333' } // Color de las líneas del grid
+                ticks: { color: '#ffffff' },
+                grid: { color: '#333333' }
             }
         },
         responsive: true,
         maintainAspectRatio: false
     }
 });
-
