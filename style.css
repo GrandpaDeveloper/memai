@@ -2,12 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
+  background-color: #121212; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
 }
 
 header {
-  background: #333;
-  color: #fff;
+  background: #1f1f1f;
+  color: #ffffff;
   padding: 1rem 2rem;
 }
 
@@ -26,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -35,12 +36,18 @@ section {
 }
 
 section#comparison {
-  background: #e0e0e0;
+  background: #2a2a2a; /* Fondo más oscuro */
+}
+
+canvas {
+  background: #1a1a1a; /* Fondo del gráfico */
+  border: 1px solid #333333; /* Borde del gráfico */
 }
 
 footer {
   text-align: center;
   padding: 1rem;
-  background: #333;
-  color: #fff;
+  background: #1f1f1f;
+  color: #ffffff;
 }
+
