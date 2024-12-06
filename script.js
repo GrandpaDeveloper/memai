@@ -41,3 +41,4 @@ const aiChart = new Chart(ctx, {
         maintainAspectRatio: false
     }
 });
+
